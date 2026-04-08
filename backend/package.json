@@ -1,0 +1,19 @@
+{
+    "name": "terminal-website-backend",
+    "version": "1.0.0",
+    "private": true,
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "dependencies": {
+        "archiver": "^7.0.1",
+        "cors": "^2.8.5",
+        "dockerode": "^4.0.9",
+        "express": "^4.21.2",
+        "node-pty": "^1.0.0",
+        "uuid": "^11.1.0",
+        "ws": "^8.18.0"
+    }
+}
