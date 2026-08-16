@@ -1,5 +1,32 @@
-# letvler-shell
-> Cinematic hacker-style web terminal: a static Next.js frontend that connects over WebSocket to a Node.js backend which creates an interactive PTY per client. Backend supports Docker-based sandbox sessions (dockerode) and a node-pty fallback.
+<p align="center">
+  <img src="./.github/readme-assets/blueprint.gif" alt="Animated blueprint / system visual for letvler-shell" width="100%" />
+</p>
+
+<h1 align="center">letvler-shell</h1>
+
+<p align="center"><strong>Cinematic hacker-style web terminal: a static Next.js frontend that connects over WebSocket to a Node.js backend which creates an interactive PTY per client. Backend supports Docker-based sandbox sessions (dockerode) and a node-pty fallback.</strong></p>
+
+<p align="center"><code>REPO//SIGNAL</code> · <code>BLUEPRINT / SYSTEM</code> · <code>LOOPING README EXPERIENCE</code></p>
+
+## Live signal
+
+| Lens | Readout |
+| --- | --- |
+| Portfolio lane | **BLUEPRINT / SYSTEM** |
+| Code surface | **3007** tracked files observed |
+| Primary materials | **Markdown, Python, React TSX, JavaScript** |
+| Verification | **0** test-related files observed |
+
+> A structural view of the project machinery. The animated frame above is a lightweight visual signature; the sections below remain the source of truth for implementation details.
+
+## Motion map
+
+`INGEST` → `COMPOSE` → `SHIP`
+
+Trace the repository from inputs and dependencies through its core modules to the delivered surface. Keep configuration explicit, make failure states observable, and add verification around the highest-value paths.
+
+<details open>
+<summary><strong>Open the full project dossier</strong></summary>
 
 ## Overview
 A split frontend/backend project intended to serve a cinematic, xterm.js-based web terminal UI that opens an interactive shell per connected client. Frontend is implemented as a static Next.js export; backend is an Express + ws server that manages PTYs or Docker container sessions and exposes health, session metadata, and file-download endpoints.
@@ -111,3 +138,9 @@ Suggested immediate safety steps (from repository analysis):
 
 ## License
 No license file or explicit license information was found in the supplied repository evidence. Do not assume a license when using or redistributing this code.
+
+</details>
+
+---
+
+<p align="center"><sub>README motion system · visual layer by RepoSignal · implementation details remain project-specific</sub></p>
